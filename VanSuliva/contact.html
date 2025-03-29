@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Van Suliva</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Van Suliva</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact-page">
+        <section id="contact-header">
+            <h1>Get In Touch</h1>
+            <p>Let's collaborate on your next project</p>
+        </section>
+
+        <section id="contact-container">
+            <!-- Contact Information Cards -->
+            <div class="contact-info">
+                <div class="info-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>vanrod124@example.com</p>
+                    <a href="mailto:vanrod124@example.com" class="contact-link">Send Email</a>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+1 (555) 123-4567</p>
+                    <a href="tel:+15551234567" class="contact-link">Call Now</a>
+                </div>
+
+                <div class="info-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>San Francisco, CA</p>
+                    <a href="#" class="contact-link">View on Map</a>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form-container">
+                <h2>Send Me a Message</h2>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Social Media Section -->
+        <section id="social-connect">
+            <h2>Connect With Me</h2>
+            <div class="social-grid">
+                <a href="https://github.com/vanrod124" class="social-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                    <p>@vanrod124</p>
+                </a>
+                <a href="https://linkedin.com/in/vanrod124" class="social-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                    <p>Van Suliva</p>
+                </a>
+                <a href="https://twitter.com/vanrod124" class="social-card">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                    <p>@vanrod124</p>
+                </a>
+                <a href="https://dev.to/vanrod124" class="social-card">
+                    <i class="fab fa-dev"></i>
+                    <span>Dev.to</span>
+                    <p>@vanrod124</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://github.com/vanrod124"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/vanrod124"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/vanrod124"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p>&copy; 2025 Van Suliva | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
